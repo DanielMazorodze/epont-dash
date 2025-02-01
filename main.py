@@ -42,7 +42,7 @@ xls = pd.ExcelFile(file_path)
 df = xls.parse('Sheet1')
 
 # --- Streamlit UI ---
-# st.title("Quantilytix-Epont ESD Programme")
+st.title("Quantilytix-Epont ESD Programme")
 
 # --- Sidebar Filters with Logo ---
 col1, col2, col3 = st.sidebar.columns([3,3, 5])
